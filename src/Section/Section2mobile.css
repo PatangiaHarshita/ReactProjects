@@ -1,0 +1,4 @@
+div.carousel-item > img {
+  width: 100% !important;
+  height: 50% !important;
+}

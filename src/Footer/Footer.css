@@ -1,0 +1,77 @@
+.items {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.note {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Bazaar Black */
+
+  color: #000000;
+}
+.description {
+  width: 864px;
+  height: 180px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+
+  margin: auto;
+
+  text-align: center;
+
+  /* Bazaar Black */
+
+  color: #000000;
+}
+
+.designer {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  text-align: center;
+  text-transform: capitalize;
+}
+div.footer > div.items > a {
+  padding: 10px !important;
+}
+@media screen and (max-width: 480px) {
+  .footer,
+  .items,
+  .note,
+  .description,
+  .designer {
+    width: 100%;
+  }
+  .description {
+    font-size: 25px;
+  }
+}

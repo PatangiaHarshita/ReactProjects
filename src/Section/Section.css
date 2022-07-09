@@ -1,0 +1,64 @@
+.container {
+  margin: 10px;
+  max-width: fit-content;
+}
+@media screen and (max-width: 480px) {
+  .hide {
+    display: none;
+  }
+}
+
+nav.nav-link active {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-transform: uppercase;
+}
+
+a.nav-link {
+  font-family: "Helvetica Now Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.imageblock,
+.grid-container2 {
+  display: flex !important;
+  /* padding: 10px;
+  width: 100%; */
+}
+
+.section1 {
+  margin-top: 10px;
+  text-align: left;
+}
+a {
+  color: black;
+}
+
+/* Section - 3 CSS */
+
+@media screen and (max-width: 480px) {
+  .leftcontent {
+    display: none;
+  }
+  .grid-item2 {
+    display: block;
+  }
+  .imageblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.section {
+  display: flex;
+}
